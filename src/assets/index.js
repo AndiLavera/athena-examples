@@ -27,7 +27,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const textnode = document.createTextNode(data.message);
         node.appendChild(textnode);
         document.getElementById("chat-log").appendChild(node);
-        document.getElementById("chat_message").value = "";
       },
       rejected: function () {
         return console.log("ChatChannel rejected");
