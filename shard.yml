@@ -1,0 +1,15 @@
+name: athena-ws-test
+version: 0.1.0
+
+authors:
+  - Andrew Crotwell <awcrotwell@gmail.com>
+
+dependencies:
+  athena:
+    github: andrewc910/athena
+    branch: ws
+
+  cable:
+    github: cable-cr/cable
+
+license: MIT

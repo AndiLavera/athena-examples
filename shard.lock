@@ -1,0 +1,54 @@
+version: 2.0
+shards:
+  amber_router:
+    git: https://github.com/amberframework/amber-router.git
+    version: 0.4.4
+
+  athena:
+    git: https://github.com/andrewc910/athena.git
+    version: 0.12.0+git.commit.09113ead2fb09373205b4df2e9d49777cebe0569
+
+  athena-config:
+    git: https://github.com/athena-framework/config.git
+    version: 0.1.3
+
+  athena-dependency_injection:
+    git: https://github.com/athena-framework/dependency-injection.git
+    version: 0.2.3
+
+  athena-event_dispatcher:
+    git: https://github.com/athena-framework/event-dispatcher.git
+    version: 0.1.2
+
+  athena-serializer:
+    git: https://github.com/athena-framework/serializer.git
+    version: 0.2.3
+
+  athena-validator:
+    git: https://github.com/athena-framework/validator.git
+    version: 0.1.3
+
+  cable:
+    git: https://github.com/cable-cr/cable.git
+    version: 0.1.0+git.commit.731d907fec20269c468d072d8cbfeabab6cfa374
+
+  future:
+    git: https://github.com/crystal-community/future.cr.git
+    version: 0.1.0
+
+  habitat:
+    git: https://github.com/luckyframework/habitat.git
+    version: 0.4.4
+
+  pool:
+    git: https://github.com/ysbaddaden/pool.git
+    version: 0.2.3
+
+  redis:
+    git: https://github.com/stefanwille/crystal-redis.git
+    version: 2.6.0
+
+  schedule:
+    git: https://github.com/hugoabonizio/schedule.cr.git
+    version: 0.2.2
+
