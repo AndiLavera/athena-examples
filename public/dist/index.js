@@ -1,4 +1,4 @@
-import { createConsumer } from "@rails/actioncable";
+import { createConsumer } from "./_snowpack/pkg/@rails/actioncable.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   const App = {};

@@ -5,11 +5,11 @@ struct StaticFileListener
   include AED::EventListenerInterface
 
   # This could be part of the config object.
-  private PUBLIC_DIR = Path.new("src/assets").expand
+  private PUBLIC_DIR = Path.new("public/dist").expand
 
   def self.subscribed_events : AED::SubscribedEvents
     AED::SubscribedEvents{
-      ART::Events::Request => 253,
+      ART::Events::Request => 100,
     }
   end
 
@@ -17,9 +17,6 @@ struct StaticFileListener
   # def initialize(@configuration_resolver : ACF::ConfigurationResolverInterface); end
 
   def call(event : ART::Events::Request, _dispatcher : AED::EventDispatcherInterface) : Nil
-    # pp "EVENT"
-    # pp event
-
     # TODO: Fallback if the request method isn't intended for files.
     return unless event.request.method.in? "GET", "HEAD"
 

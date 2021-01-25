@@ -1,0 +1,29 @@
+{
+  "name": "ws",
+  "version": "1.0.0",
+  "description": "## Usage",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "npx nodemon --exec ATHENA_ENV=\"development\" crystal run --watch src src/start.cr",
+    "start": "npx nodemon --exec ATHENA_ENV=\"production\" crystal run --watch src src/start.cr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewc910/athena-ws-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewc910/athena-ws-test/issues"
+  },
+  "homepage": "https://github.com/andrewc910/athena-ws-test#readme",
+  "dependencies": {
+    "@rails/actioncable": "^6.1.1",
+    "actioncable": "^5.2.4-4",
+    "nodemon": "^2.0.7",
+    "snowpack": "^3.0.11"
+  }
+}
