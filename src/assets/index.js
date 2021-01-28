@@ -1,4 +1,5 @@
 import { createConsumer } from "@rails/actioncable";
+import "tailwindcss/dist/tailwind.css";
 
 document.addEventListener("DOMContentLoaded", () => {
   const App = {};

@@ -18,11 +18,6 @@ struct WebsocketListener
       context = HTTP::Server::Context.new(event.request, res)
       SERVER.call(context)
 
-      # io = IO::Memory.new
-      # if (handler = context.response.upgrade_handler)
-      #   handler.call(io)
-      # end
-
       athena_response = ART::Response.new(
         headers: res.headers,
         status: res.status_code,

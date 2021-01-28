@@ -11,7 +11,7 @@ class HomeController < ART::Controller
       <script>
         window.HMR_WEBSOCKET_URL = 'ws://#{Snowpacker.config.hostname}:#{Snowpacker.config.port}'
       </script>
-      <script src="/_snowpack/hmr-client.js" type="module" defer></script>
+      <!-- <script src="/_snowpack/hmr-client.js" type="module" defer></script> -->
       <script src="index.js" type="module" defer></script>
     <head>
     <body>
@@ -24,7 +24,7 @@ class HomeController < ART::Controller
       <br />
 
       <h3>Messages</h3>
-      <div id="chat-log">
+        <div id="chat-log">
       </div>
     <body>
     STR
