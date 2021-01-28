@@ -8,10 +8,6 @@ class HomeController < ART::Controller
       <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
       <meta content="utf-8" http-equiv="encoding">
       <link rel="stylesheet" href="styles.css">
-      <script>
-        window.HMR_WEBSOCKET_URL = 'ws://#{Snowpacker.config.hostname}:#{Snowpacker.config.port}'
-      </script>
-      <!-- <script src="/_snowpack/hmr-client.js" type="module" defer></script> -->
       <script src="index.js" type="module" defer></script>
     <head>
     <body>
