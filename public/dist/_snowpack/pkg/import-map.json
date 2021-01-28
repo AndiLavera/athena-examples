@@ -1,5 +1,0 @@
-{
-  "imports": {
-    "@rails/actioncable": "./@rails/actioncable.js"
-  }
-}

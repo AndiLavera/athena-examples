@@ -8,7 +8,8 @@
   },
   "scripts": {
     "dev": "npx nodemon --exec ATHENA_ENV=\"development\" crystal run --watch src src/server.cr",
-    "start": "npx nodemon --exec ATHENA_ENV=\"production\" crystal run --watch src src/server.cr"
+    "start": "npx nodemon --exec ATHENA_ENV=\"production\" crystal run --watch src src/server.cr",
+    "build:assets": "npx snowpack build"
   },
   "repository": {
     "type": "git",
