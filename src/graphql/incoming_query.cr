@@ -1,3 +1,4 @@
+require "athena"
 require "json"
 
 class IncomingQuery
@@ -11,12 +12,6 @@ class IncomingQuery
 
   @[ASRA::Expose]
   property operation_name : String?
-
-  def initialize(json : JSON::Any)
-    @query = json["query"]
-    @variables = json["variables"]?
-    @operation_name = json["operation"]?
-  end
 
   def execute(schema : GraphQL::Schema)
     schema.execute(@query, @variables, @operation_name)
