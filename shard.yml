@@ -9,8 +9,7 @@ dependencies:
     github: athena-framework/athena
     branch: master
 
-  snowpacker:
-    github: andrewc910/snowpacker.cr
-    branch: main
+  graphql:
+    github: graphql-crystal/graphql
 
 license: MIT
