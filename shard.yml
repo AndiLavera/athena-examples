@@ -7,10 +7,10 @@ authors:
 dependencies:
   athena:
     github: athena-framework/athena
-    branch: master
+    version: 0.13.0
 
   snowpacker:
     github: andrewc910/snowpacker.cr
-    branch: main
+    version: 0.1.0
 
 license: MIT

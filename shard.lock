@@ -6,29 +6,29 @@ shards:
 
   athena:
     git: https://github.com/athena-framework/athena.git
-    version: 0.12.0+git.commit.002eda34099e6c2baefdcf25e4e0af30e1a40dea
+    version: 0.13.0
 
   athena-config:
     git: https://github.com/athena-framework/config.git
-    version: 0.1.3
+    version: 0.2.1
 
   athena-dependency_injection:
     git: https://github.com/athena-framework/dependency-injection.git
-    version: 0.2.3
+    version: 0.2.6
 
   athena-event_dispatcher:
     git: https://github.com/athena-framework/event-dispatcher.git
-    version: 0.1.2
+    version: 0.1.3
 
   athena-serializer:
     git: https://github.com/athena-framework/serializer.git
-    version: 0.2.3
+    version: 0.2.7
 
   athena-validator:
     git: https://github.com/athena-framework/validator.git
-    version: 0.1.3
+    version: 0.1.4
 
   snowpacker:
     git: https://github.com/andrewc910/snowpacker.cr.git
-    version: 0.1.0+git.commit.7bc8ebd11d8cce6f50a0357b6c115b907eda381a
+    version: 0.1.0
 
