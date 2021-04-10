@@ -10,6 +10,7 @@ dependencies:
     branch: ws
 
   cable:
-    github: cable-cr/cable
+    github: jwoertink/cable
+    branch: crystal1.0
 
 license: MIT
