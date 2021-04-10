@@ -56,3 +56,7 @@ shards:
     git: https://github.com/hugoabonizio/schedule.cr.git
     version: 0.2.2
 
+  snowpacker:
+    git: https://github.com/andrewc910/snowpacker.cr.git
+    version: 0.1.0
+

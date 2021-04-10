@@ -89,7 +89,7 @@ struct StaticFileListener
     response_headers["last-modified"] = HTTP.format_time(last_modified)
   end
 
-  private def cache_request?(request : HTTP::Request, response_headers : HTTP::Headers, last_modified : Time) : Bool
+  private def cache_request?(request : Athena::Routing::Request, response_headers : HTTP::Headers, last_modified : Time) : Bool
     # According to RFC 7232:
     # A recipient must ignore If-Modified-Since if the request contains an If-None-Match header field
     if if_none_match = request.if_none_match

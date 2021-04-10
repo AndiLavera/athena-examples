@@ -13,4 +13,8 @@ dependencies:
     github: jwoertink/cable
     branch: crystal1.0
 
+  snowpacker:
+    github: andrewc910/snowpacker.cr
+    version: 0.1.0
+
 license: MIT

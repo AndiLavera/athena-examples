@@ -4,6 +4,8 @@ class HomeController < ART::Controller
   @[ARTA::Get("/")]
   def index : ART::Response
     html = <<-STR
+    <!DOCTYPE html>
+    <html>
     <head>
       <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
       <meta content="utf-8" http-equiv="encoding">
@@ -23,6 +25,7 @@ class HomeController < ART::Controller
         <div id="chat-log">
       </div>
     <body>
+    </html>
     STR
 
     ART::Response.new(

@@ -15,7 +15,8 @@ struct WebsocketListener
   def call(event : ART::Events::Request, dispatcher : AED::EventDispatcherInterface) : Nil
     if event.request.path == "/cable"
       res = HTTP::Server::Response.new(IO::Memory.new)
-      context = HTTP::Server::Context.new(event.request, res)
+      req = HTTP::Request.new(event.request.method, event.request.path, event.request.headers, event.request.body)
+      context = HTTP::Server::Context.new(req, res)
       SERVER.call(context)
 
       athena_response = ART::Response.new(

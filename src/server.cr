@@ -7,8 +7,8 @@ require "./websockets/cable"
 require "./websockets/connection"
 require "./websockets/chat_channel"
 
-require "../../snowpacker.cr/src/snowpacker"
-require "../../snowpacker.cr/src/ext/athena"
+require "snowpacker"
+require "snowpacker/ext/athena"
 
 Snowpacker::Engine.configure do |config|
   config.enabled = ENV["ATHENA_ENV"]? == "development"
