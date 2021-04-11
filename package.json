@@ -21,8 +21,7 @@
   },
   "homepage": "https://github.com/andrewc910/athena-ws-test#readme",
   "dependencies": {
-    "@rails/actioncable": "^6.1.1",
-    "tailwindcss": "^2.0.2"
+    "@rails/actioncable": "^6.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.7",
